@@ -2,14 +2,14 @@ header{
     height: 90px;
     width: 100%;
     background-color: #2c3e50;
-    display: flex;
-    align-items: center;
+  
 }
 
 .red{
     /* debug */
     background-color: red;
     height: 50px;
+    border: solid 2px white;
 
 }
 
@@ -27,4 +27,23 @@ header{
 #portfolio{
     width: 100%;
     height: 850px;
+}
+
+#about{
+    width: 100%;
+    height: 850px;
+    background-color: #1abc9c;
+}
+
+#contact{
+    width: 100%;
+    height: 850px;
+
+}
+
+#footer_top{
+    width: 100%;
+    height: 850px;
+    background-color: #3a546d;
+
 }
