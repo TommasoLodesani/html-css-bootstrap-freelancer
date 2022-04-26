@@ -18,15 +18,55 @@ header .bg-light{
 
 }
 
-.blue{
+/* .blue{
     background-color: blue;
     height: 480px;
-}
+} */
 
 #jumbotron{
     width: 100%;
     height: 588px;
     background-color: #1abc9c;
+}
+
+#jumbotron .cont_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+#jumbotron img{
+    height: 270px;
+}
+
+#jumbotron h1{
+    font-size: 60px;
+    color: white;
+}
+
+#jumbotron h4{
+    color: white;
+}
+
+#jumbotron .cont_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#jumbotron .cont_icon i{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.line{
+    height: 4px;
+    width: 170px;
+    background-color: white;
+    border-radius: 50px;
 }
 
 #portfolio{
