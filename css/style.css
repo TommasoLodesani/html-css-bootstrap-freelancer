@@ -150,7 +150,23 @@ h2 {
 
 #contact {
     width: 100%;
+    padding-bottom: 50px;
 
+}
+
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+}
+
+#contact .btn-primary{
+    background-color: #1abc9c;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 18px;
+    
 }
 
 #footer_top {
